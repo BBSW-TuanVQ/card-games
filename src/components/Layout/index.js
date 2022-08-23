@@ -9,8 +9,7 @@ function Layout({children}) {
         <div className="wrapper container-fluid">
             <Header/>
             <div className="row">
-                <div className="col-4"><Sidebar/></div>
-                <div className="content col-8">{children}</div>
+                <div className="content d-flex justify-content-center">{children}</div>
             </div>
         </div>
      );
