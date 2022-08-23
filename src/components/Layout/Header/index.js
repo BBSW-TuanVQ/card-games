@@ -2,9 +2,14 @@
 
 function Header() {
     return (
-      <header className="d-flex justify-content-center">
-        <h2>Header</h2>
-      </header>
+      <div className="container-fluid text-bg-dark">
+        <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" className="text-decoration-none text-white">
+                <h1>Amazing Card Games</h1>
+            </a>
+        </header>
+        
+      </div>
     );
   }
   
